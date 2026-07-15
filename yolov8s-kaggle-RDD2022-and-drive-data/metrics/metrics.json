@@ -1,0 +1,20 @@
+{
+  "experiment": "rdd_yolov8_with_drive_and_kaggle_data_20260531_071633",
+  "model_type": "yolov8s.pt",
+  "epochs": 50,
+  "img_size": 640,
+  "mAP50": 0.6402534147131326,
+  "mAP50-95": 0.3539509906884847,
+  "precision": 0.6922280348440251,
+  "recall": 0.5882392431094347,
+  "train_imgs": 31502,
+  "val_imgs": 5251,
+  "test_imgs": 5251,
+  "class_dist": {
+    "longitudinal_crack": 25963,
+    "transverse_crack": 11809,
+    "alligator_crack": 10598,
+    "pothole": 19113
+  },
+  "timestamp": "2026-05-31T16:06:18.453410Z"
+}
