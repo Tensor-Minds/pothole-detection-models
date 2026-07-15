@@ -12,13 +12,20 @@ Here is a summary of the datasets, model weights files, and key performance metr
 
 ### Performance Metrics Comparison
 
-| Model | Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
-| :--- | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **YOLOv8n** | `yolov8n-balanced-ultralytics-dataset` | `exp-2.pt` | Balanced Hub Dataset | 100 | 59.4% | 34.1% | 63.4% | 61.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp-2) |
-| **YOLOv8s** | `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | Balanced Hub Dataset | 50 | 62.4% | 36.6% | 63.9% | 66.0% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp) |
-| **YOLOv8n** | `yolov8n-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | 60.2% | 33.1% | 65.0% | 56.1% | Local Run |
-| **YOLOv8s** | `yolov8s-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | **64.3%** | **35.9%** | 66.5% | **59.9%** | Local Run |
-| **YOLOv8s** | `yolov8s-kaggle-RDD2022-and-drive-data` | `models/best.pt` | RDD-2022 + Drive | 50 | 64.0% | 35.4% | **69.2%** | 58.8% | Local Run |
+#### YOLOv8 Nano (YOLOv8n) Models
+
+| Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| `yolov8n-balanced-ultralytics-dataset` | `exp-2.pt` | Balanced Hub Dataset | 100 | 59.4% | **34.1%** | 63.4% | **61.2%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp-2) |
+| `yolov8n-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | **60.2%** | 33.1% | **65.0%** | 56.1% | Local Run |
+
+#### YOLOv8 Small (YOLOv8s) Models
+
+| Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | Balanced Hub Dataset | 50 | 62.4% | **36.6%** | 63.9% | **66.0%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp) |
+| `yolov8s-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | **64.3%** | 35.9% | 66.5% | 59.9% | Local Run |
+| `yolov8s-kaggle-RDD2022-and-drive-data` | `models/best.pt` | RDD-2022 + Drive | 50 | 64.0% | 35.4% | **69.2%** | 58.8% | Local Run |
 
 ---
 
@@ -27,7 +34,7 @@ Here is a summary of the datasets, model weights files, and key performance metr
 To ensure consistency and ease of tracking for research, any new model training runs or model updates **MUST** follow these documentation rules:
 
 1. **Update Root `README.md`**:
-   - Any new models, modified epochs, or updated metrics must be added/updated in the **Performance Metrics Comparison** table above.
+   - Any new models, modified epochs, or updated metrics must be added/updated in the appropriate table under the **Performance Metrics Comparison** section above (either the **YOLOv8 Nano** or **YOLOv8 Small** table, depending on the model type).
    - Include the correct folder name and the exact model weights file name (e.g., `exp.pt` or `models/best.pt`).
    - If a new dataset is introduced, document its name and link in the **Datasets Used for Research** section.
 
