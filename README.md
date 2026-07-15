@@ -27,6 +27,12 @@ Here is a summary of the datasets, model weights files, and key performance metr
 | `yolov8s-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | **64.3%** | 35.9% | 66.5% | 59.9% | Local Run |
 | `yolov8s-kaggle-RDD2022-and-drive-data` | `models/best.pt` | RDD-2022 + Drive | 50 | 64.0% | 35.4% | **69.2%** | 58.8% | Local Run |
 
+#### YOLOv26 Models
+
+| Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| `yolov26n-balanced-ultralytics-dataset` | `yolo26n-training.pt` | Balanced Hub Dataset | 100 | 58.9% | 34.3% | 64.1% | 59.8% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/yolo26n-training) |
+
 ---
 
 ## Documenting Rules
@@ -34,7 +40,7 @@ Here is a summary of the datasets, model weights files, and key performance metr
 To ensure consistency and ease of tracking for research, any new model training runs or model updates **MUST** follow these documentation rules:
 
 1. **Update Root `README.md`**:
-   - Any new models, modified epochs, or updated metrics must be added/updated in the appropriate table under the **Performance Metrics Comparison** section above (either the **YOLOv8 Nano** or **YOLOv8 Small** table, depending on the model type).
+   - Any new models, modified epochs, or updated metrics must be added/updated in the appropriate table under the **Performance Metrics Comparison** section above (either the **YOLOv8 Nano**, **YOLOv8 Small**, or **YOLOv26** table, depending on the model type).
    - Include the correct folder name and the exact model weights file name (e.g., `exp.pt` or `models/best.pt`).
    - If a new dataset is introduced, document its name and link in the **Datasets Used for Research** section.
 
