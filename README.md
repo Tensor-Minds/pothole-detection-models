@@ -1,17 +1,24 @@
 # Pothole Detection Models
 
-Here is a summary of the dataset links, weights files, and key performance metrics for the models in this repository.
+Here is a summary of the datasets, model weights files, and key performance metrics for the models in this repository.
 
-### Dataset
-*   **Name**: `pothole-detection-merged-balanced-dataset-2`
-*   **Link**: [Ultralytics Hub Dataset](https://platform.ultralytics.com/paranietharan-palasuntharam/datasets/pothole-detection-merged-balanced-dataset-2)
+### Datasets Used for Research
+1.  **Balanced Ultralytics Hub Dataset** (`pothole-detection-merged-balanced-dataset-2`):
+    - [Ultralytics Hub Dataset Link](https://platform.ultralytics.com/paranietharan-palasuntharam/datasets/pothole-detection-merged-balanced-dataset-2)
+2.  **RDD-2022 Dataset**:
+    - [Kaggle RDD-2022 Dataset Link](https://www.kaggle.com/datasets/aliabdelmenam/rdd-2022)
+3.  **Custom Google Drive Dataset**:
+    - [Google Drive Dataset Link](https://drive.google.com/file/d/1b1kpXADga39fd784VJLoHtXUFZFIIKQ5/view?usp=share_link)
 
 ### Performance Metrics Comparison
 
-| Model | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Hub Link |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **YOLOv8n** (`yolov8n-balanced-kaggle-dataset`) | `exp-2.pt` | 100 | 59.4% | 34.1% | 63.4% | 61.2% | [Ultralytics Hub Link](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp-2) |
-| **YOLOv8s** (`yolov8s-balanced-kaggle-dataset`) | `exp.pt` | 50 | **62.4%** | **36.6%** | **63.9%** | **66.0%** | [Ultralytics Hub Link](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp) |
+| Model | Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
+| :--- | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **YOLOv8n** | `yolov8n-balanced-ultralytics-dataset` | `exp-2.pt` | Balanced Hub Dataset | 100 | 59.4% | 34.1% | 63.4% | 61.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp-2) |
+| **YOLOv8s** | `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | Balanced Hub Dataset | 50 | 62.4% | 36.6% | 63.9% | 66.0% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp) |
+| **YOLOv8n** | `yolov8n-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | 60.2% | 33.1% | 65.0% | 56.1% | Local Run |
+| **YOLOv8s** | `yolov8s-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | **64.3%** | **35.9%** | 66.5% | **59.9%** | Local Run |
+| **YOLOv8s** | `yolov8s-kaggle-RDD2022-and-drive-data` | `models/best.pt` | RDD-2022 + Drive | 50 | 64.0% | 35.4% | **69.2%** | 58.8% | Local Run |
 
 ---
 
@@ -21,12 +28,13 @@ To ensure consistency and ease of tracking for research, any new model training 
 
 1. **Update Root `README.md`**:
    - Any new models, modified epochs, or updated metrics must be added/updated in the **Performance Metrics Comparison** table above.
-   - Include the exact model weights file name (e.g., `*.pt`).
+   - Include the correct folder name and the exact model weights file name (e.g., `exp.pt` or `models/best.pt`).
+   - If a new dataset is introduced, document its name and link in the **Datasets Used for Research** section.
 
 2. **Update Subfolder `Readme.md`**:
-   - The directory-specific `Readme.md` file (e.g., `yolov8n-balanced-kaggle-dataset/Readme.md`) must be kept synchronized with the root file.
+   - The directory-specific `Readme.md` file (e.g., `yolov8s-kaggle-RDD2022/Readme.md`) must be kept synchronized with the root file.
    - Detail the specific model weights file, the dataset details, and the local performance metrics table inside that folder's `Readme.md`.
 
 3. **Validate Metric Accuracies**:
-   - Ensure the metrics (mAP50, mAP50-95, Precision, Recall) match the final validation epochs on the Ultralytics Hub platform.
-   - Verify that the Hub download links are correct and accessible.
+   - Ensure the metrics (mAP50, mAP50-95, Precision, Recall) match the final validation epochs from the training logs or the Ultralytics Hub platform.
+   - Verify that all external dataset and model links are correct and accessible.
