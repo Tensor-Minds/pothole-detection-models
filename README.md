@@ -28,6 +28,7 @@ Here is a summary of the datasets, model weights files, and key performance metr
 | `yolov8s-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | 64.3% | 35.9% | 66.5% | 59.9% | Local Run |
 | `yolov8s-kaggle-RDD2022-and-drive-data` | `models/best.pt` | RDD-2022 + Drive | 50 | 64.0% | 35.4% | 69.2% | 58.8% | Local Run |
 | `yolov8s-100epoch-balanced-ultralytics-dataset` | `yolov8s.pt` | Balanced Hub Dataset | 100 | **66.4%** | **39.4%** | **68.0%** | **68.1%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/yolov8s) |
+| `yolov8s-960imgsz-balanced-ultralytics-dataset` | `exp.pt` | Balanced Hub Dataset | 100 (960px) | 51.5% | 27.6% | 56.9% | 53.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/exp) |
 
 #### YOLOv26 Models
 
