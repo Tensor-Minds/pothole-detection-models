@@ -16,19 +16,20 @@ Here is a summary of the datasets, model weights files, and key performance metr
 
 | Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov8n-balanced-ultralytics-dataset` | `exp-2.pt` | Balanced Hub Dataset | 100 | 59.4% | 34.1% | 63.4% | 61.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp-2) |
-| `yolov8n-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | 60.2% | 33.1% | **65.0%** | 56.1% | Local Run |
-| `yolov8n-update-v1-balanced-ultralytics-dataset` | `yolov8n-update-v1.pt` | Balanced Hub Dataset | 100 | 60.5% | 34.6% | 63.4% | 62.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/yolov8n-update-v1) |
 | `yolov8n-train-with-200-epoch` | `yolov8n-train-with-200-epoch.pt` | Balanced Hub Dataset | 200 (1280px) | **63.0%** | **35.5%** | 64.7% | **65.1%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/train-with-200-epoch) |
+| `yolov8n-update-v1-balanced-ultralytics-dataset` | `yolov8n-update-v1.pt` | Balanced Hub Dataset | 100 | 60.5% | 34.6% | 63.4% | 62.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/yolov8n-update-v1) |
+| `yolov8n-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | 60.2% | 33.1% | **65.0%** | 56.1% | Local Run |
+| `yolov8n-balanced-ultralytics-dataset` | `exp-2.pt` | Balanced Hub Dataset | 100 | 59.4% | 34.1% | 63.4% | 61.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp-2) |
 
 #### YOLOv8 Small (YOLOv8s) Models
 
 | Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | Balanced Hub Dataset | 50 | 62.4% | 36.6% | 63.9% | 66.0% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp) |
+| `yolov8s-200epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-200-epoch.pt` | Balanced Hub Dataset | 200 (1280px) | **68.2%** | **43.0%** | **71.1%** | **69.0%** | [Ultralytics Hub](https://platform.ultralytics.com/paranitharan002/pothole-detection/yolov8s-200) |
+| `yolov8s-100epoch-balanced-ultralytics-dataset` | `yolov8s.pt` | Balanced Hub Dataset | 100 | 66.4% | 39.4% | 68.0% | 68.1% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/yolov8s) |
 | `yolov8s-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | 64.3% | 35.9% | 66.5% | 59.9% | Local Run |
 | `yolov8s-kaggle-RDD2022-and-drive-data` | `models/best.pt` | RDD-2022 + Drive | 50 | 64.0% | 35.4% | 69.2% | 58.8% | Local Run |
-| `yolov8s-100epoch-balanced-ultralytics-dataset` | `yolov8s.pt` | Balanced Hub Dataset | 100 | **66.4%** | **39.4%** | **68.0%** | **68.1%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/yolov8s) |
+| `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | Balanced Hub Dataset | 50 | 62.4% | 36.6% | 63.9% | 66.0% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp) |
 | `yolov8s-960imgsz-balanced-ultralytics-dataset` | `exp.pt` | Balanced Hub Dataset | 100 (960px) | 51.5% | 27.6% | 56.9% | 53.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/exp) |
 
 #### YOLOv26 Models
@@ -45,6 +46,7 @@ To ensure consistency and ease of tracking for research, any new model training 
 
 1. **Update Root `README.md`**:
    - Any new models, modified epochs, or updated metrics must be added/updated in the appropriate table under the **Performance Metrics Comparison** section above (either the **YOLOv8 Nano**, **YOLOv8 Small**, or **YOLOv26** table, depending on the model type).
+   - **Order the models from best to worst** within each table based on their `mAP50` metric (with `mAP50-95` as a tiebreaker).
    - Include the correct folder name and the exact model weights file name (e.g., `exp.pt` or `models/best.pt`).
    - If a new dataset is introduced, document its name and link in the **Datasets Used for Research** section.
 
