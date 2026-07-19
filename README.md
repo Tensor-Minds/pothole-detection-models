@@ -25,7 +25,8 @@ Here is a summary of the datasets, model weights files, and key performance metr
 
 | Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov8s-200epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-200-epoch.pt` | Balanced Hub Dataset | 200 (1280px) | **68.2%** | **43.0%** | **71.1%** | **69.0%** | [Ultralytics Hub](https://platform.ultralytics.com/paranitharan002/pothole-detection/yolov8s-200) |
+| `yolov8s-250epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-250-epoch.pt` | Balanced Hub Dataset | 250 (1280px) | **68.9%** | **45.0%** | **73.9%** | 68.8% | [Ultralytics Hub](https://platform.ultralytics.com/paranitharan002/pothole-detection/yolov8s-250-epoch-3) |
+| `yolov8s-200epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-200-epoch.pt` | Balanced Hub Dataset | 200 (1280px) | 68.2% | 43.0% | 71.1% | **69.0%** | [Ultralytics Hub](https://platform.ultralytics.com/paranitharan002/pothole-detection/yolov8s-200) |
 | `yolov8s-100epoch-balanced-ultralytics-dataset` | `yolov8s.pt` | Balanced Hub Dataset | 100 | 66.4% | 39.4% | 68.0% | 68.1% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/yolov8s) |
 | `yolov8s-kaggle-RDD2022` | `models/best.pt` | RDD-2022 (Kaggle) | 50 | 64.3% | 35.9% | 66.5% | 59.9% | Local Run |
 | `yolov8s-kaggle-RDD2022-and-drive-data` | `models/best.pt` | RDD-2022 + Drive | 50 | 64.0% | 35.4% | 69.2% | 58.8% | Local Run |
