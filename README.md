@@ -4,7 +4,7 @@ Here is a summary of the datasets, model weights files, and key performance metr
 
 ### Datasets Used for Research
 1.  **Balanced Ultralytics Hub Dataset** (`pothole-detection-merged-balanced-dataset-2`):
-    - [Ultralytics Hub Dataset Link](https://platform.ultralytics.com/paranietharan-palasuntharam/datasets/pothole-detection-merged-balanced-dataset-2)
+    - [Ultralytics Hub Dataset Link](https://platform.ultralytics.com/paranietharan-palasuntharam/datasets/pothole-detection-merged-balanced-dataset)
 2.  **RDD-2022 Dataset**:
     - [Kaggle RDD-2022 Dataset Link](https://www.kaggle.com/datasets/aliabdelmenam/rdd-2022)
 3.  **Custom Google Drive Dataset**:

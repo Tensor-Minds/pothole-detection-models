@@ -7,7 +7,7 @@ Performance details and links for the YOLOv8s model trained for 200 epochs with 
 
 ### Dataset
 *   **Name**: `pothole-detection-merged-balanced-dataset`
-*   **Link**: [Ultralytics Hub Dataset](https://platform.ultralytics.com/paranietharan-palasuntharam/datasets/pothole-detection-merged-balanced-dataset-2)
+*   **Link**: [Ultralytics Hub Dataset](https://platform.ultralytics.com/paranietharan-palasuntharam/datasets/pothole-detection-merged-balanced-dataset)
 
 ### Performance Metrics
 

@@ -7,7 +7,7 @@ Performance details and links for the YOLOv8n-update-v1 model trained on the bal
 
 ### Dataset
 *   **Name**: `pothole-detection-merged-balanced-dataset-2`
-*   **Link**: [Ultralytics Hub Dataset](https://platform.ultralytics.com/paranietharan-palasuntharam/datasets/pothole-detection-merged-balanced-dataset-2)
+*   **Link**: [Ultralytics Hub Dataset](https://platform.ultralytics.com/paranietharan-palasuntharam/datasets/pothole-detection-merged-balanced-dataset)
 
 ### Performance Metrics
 
