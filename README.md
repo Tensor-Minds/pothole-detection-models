@@ -37,6 +37,12 @@ This section lists models trained on the **Balanced Ultralytics Hub Dataset** (`
 | `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | 50 | 62.4% | 36.6% | 63.9% | 66.0% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp) |
 | `yolov8s-960imgsz-balanced-ultralytics-dataset` | `exp.pt` | 100 (960px) | 51.5% | 27.6% | 56.9% | 53.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/exp) |
 
+#### YOLO11 Nano (YOLO11n) Models
+
+| Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| `yolo11n-50epoch-balanced-ultralytics-dataset` | `yolo11n-50epoch.pt` | 50 | **57.3%** | **32.2%** | **60.6%** | **59.8%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/volov11n-50epoch) |
+
 #### YOLOv26 Nano (YOLOv26n) Models
 
 | Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
@@ -85,7 +91,7 @@ To ensure consistency and ease of tracking for research, any new model training 
 
 1. **Update Root `README.md`**:
    - Locate the correct dataset section under the **Performance Metrics Comparison** (either **Balanced Ultralytics Hub Dataset Models**, **RDD-2022 (Kaggle) Dataset Models**, or **RDD-2022 + Custom Google Drive Dataset Models**).
-   - Add/update the model run in the appropriate table matching the model scale/version (e.g. YOLOv8 Nano, YOLOv8 Small, YOLOv26 Nano, or YOLOv26 Small) under that dataset section.
+   - Add/update the model run in the appropriate table matching the model scale/version (e.g. YOLOv8 Nano, YOLOv8 Small, YOLO11 Nano, YOLOv26 Nano, or YOLOv26 Small) under that dataset section.
    - **Order the models from best to worst** within each table based on their `mAP50` metric (with `mAP50-95` as a tiebreaker).
    - Include the correct folder name and the exact model weights file name (e.g., `exp.pt` or `models/best.pt`).
    - If a new dataset is introduced, document its name and link in the **Datasets Used for Research** section.
