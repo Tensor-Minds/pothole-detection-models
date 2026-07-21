@@ -35,11 +35,17 @@ Here is a summary of the datasets, model weights files, and key performance metr
 | `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | Balanced Hub Dataset | 50 | 62.4% | 36.6% | 63.9% | 66.0% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp) |
 | `yolov8s-960imgsz-balanced-ultralytics-dataset` | `exp.pt` | Balanced Hub Dataset | 100 (960px) | 51.5% | 27.6% | 56.9% | 53.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/exp) |
 
-#### YOLOv26 Models
+#### YOLOv26 Nano (YOLOv26n) Models
 
 | Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov26n-balanced-ultralytics-dataset` | `yolo26n-training.pt` | Balanced Hub Dataset | 100 | 58.9% | 34.3% | 64.1% | 59.8% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/yolo26n-training) |
+| `yolov26n-balanced-ultralytics-dataset` | `yolo26n-training.pt` | Balanced Hub Dataset | 100 | **58.9%** | **34.3%** | **64.1%** | **59.8%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/yolo26n-training) |
+
+#### YOLOv26 Small (YOLOv26s) Models
+
+| Folder Name | Weights File | Dataset | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| `yolov26s-balanced-ultralytics-dataset` | `yolov26s.pt` | Balanced Hub Dataset | 100 | **65.1%** | **41.1%** | **70.0%** | **67.3%** | [Ultralytics Hub](https://platform.ultralytics.com/ankayatchchelvi-palasuntharam/test-yolo-training/yolov26s) |
 
 ---
 
@@ -48,7 +54,7 @@ Here is a summary of the datasets, model weights files, and key performance metr
 To ensure consistency and ease of tracking for research, any new model training runs or model updates **MUST** follow these documentation rules:
 
 1. **Update Root `README.md`**:
-   - Any new models, modified epochs, or updated metrics must be added/updated in the appropriate table under the **Performance Metrics Comparison** section above (either the **YOLOv8 Nano**, **YOLOv8 Small**, or **YOLOv26** table, depending on the model type).
+   - Any new models, modified epochs, or updated metrics must be added/updated in the appropriate table under the **Performance Metrics Comparison** section above (either the **YOLOv8 Nano**, **YOLOv8 Small**, **YOLOv26 Nano**, or **YOLOv26 Small** table, depending on the model type).
    - **Order the models from best to worst** within each table based on their `mAP50` metric (with `mAP50-95` as a tiebreaker).
    - Include the correct folder name and the exact model weights file name (e.g., `exp.pt` or `models/best.pt`).
    - If a new dataset is introduced, document its name and link in the **Datasets Used for Research** section.
