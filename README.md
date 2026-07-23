@@ -61,7 +61,8 @@ This section lists models trained on the **Balanced Ultralytics Hub Dataset** (`
 
 | Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov26s-balanced-ultralytics-dataset` | `yolov26s.pt` | 100 | **65.1%** | **41.1%** | **70.0%** | **67.3%** | [Ultralytics Hub](https://platform.ultralytics.com/ankayatchchelvi-palasuntharam/test-yolo-training/yolov26s) |
+| `yolov26s-balanced-ultralytics-dataset` | `yolov26s.pt` | 100 | **65.1%** | **41.1%** | **70.0%** | 67.3% | [Ultralytics Hub](https://platform.ultralytics.com/ankayatchchelvi-palasuntharam/test-yolo-training/yolov26s) |
+| `yolov26s-100epoch-balanced-ultralytics-dataset` | `yolov26s-100epoch.pt` | 100 | 64.9% | 40.7% | 69.2% | **67.7%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-4/example-project/yolo26s-100-epoch) |
 
 ---
 
