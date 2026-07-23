@@ -54,7 +54,8 @@ This section lists models trained on the **Balanced Ultralytics Hub Dataset** (`
 
 | Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov26n-balanced-ultralytics-dataset` | `yolo26n-training.pt` | 100 | **58.9%** | **34.3%** | **64.1%** | **59.8%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/yolo26n-training) |
+| `yolov26n-150epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov26n-150epoch.pt` | 150 (1280px) | **64.3%** | **37.3%** | **66.5%** | **65.4%** | [Ultralytics Hub](https://platform.ultralytics.com/paranitharan002/pothole-detection/yolov26n-150epoch) |
+| `yolov26n-balanced-ultralytics-dataset` | `yolo26n-training.pt` | 100 | 58.9% | 34.3% | 64.1% | 59.8% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/yolo26n-training) |
 
 #### YOLOv26 Small (YOLOv26s) Models
 
