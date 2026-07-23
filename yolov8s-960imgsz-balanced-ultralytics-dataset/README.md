@@ -13,4 +13,27 @@ Performance details and links for the YOLOv8s model trained with an increased im
 
 | Epochs | Image Size | mAP50 | mAP50-95 | Precision | Recall | Hub Link |
 | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| 100 | 960 | 51.5% | 27.6% | 56.9% | 53.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/exp) |
+| 100 | 960 | 51.5% | 27.6% | 56.9% | 53.2% | Platform Run |
+
+### Training Configuration
+
+*   **Base Model**: `ul://ultralytics/yolov8/yolov8s`
+*   **Dataset Configuration**: `ul://paranietharan-palasuntharam-2/datasets/pothole-detection-merged-balanced-dataset`
+*   **Task**: `detect`
+*   **Weight Decay**: `0.0007`
+*   **Box Loss Weight**: `8.5`
+*   **Label Smoothing**: `0.05`
+*   **HSV-V Augmentation**: `0.5`
+*   **Scale Augmentation**: `0.6`
+*   **Mixup Augmentation**: `0.15`
+*   **Copy Paste Augmentation**: `0.15`
+*   **Epochs**: `100`
+*   **Batch Size**: `-1`
+*   **Image Size (imgsz)**: `960`
+*   **Early Stopping Patience**: `30`
+*   **Cosine LR**: `true`
+*   **Multi-Scale training**: `0.9`
+*   **Project**: `paranietharan-palasuntharam-2/pothole-detection`
+*   **Run Name**: `exp`
+*   **Device**: `0`
+

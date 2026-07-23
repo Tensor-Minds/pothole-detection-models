@@ -21,48 +21,48 @@ This section lists models trained on the **Balanced Ultralytics Hub Dataset** (`
 
 | Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov8n-300epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8n-300epoch.pt` | 300 (1280px) | **64.0%** | **37.4%** | **66.4%** | **65.5%** | [Ultralytics Hub](https://platform.ultralytics.com/palasuntharam-ponnampalam/example-project/yolov8n-300epoch) |
-| `yolov8n-250epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8n-250-epoch.pt` | 250 (1280px) | 63.9% | 36.3% | 65.9% | 65.4% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/yolov8n-250-epoch) |
-| `yolov8n-train-with-200-epoch` | `yolov8n-train-with-200-epoch.pt` | 200 (1280px) | 63.0% | 35.5% | 64.7% | 65.1% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/train-with-200-epoch) |
-| `yolov8n-update-v1-balanced-ultralytics-dataset` | `yolov8n-update-v1.pt` | 100 | 60.5% | 34.6% | 63.4% | 62.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/yolov8n-update-v1) |
-| `yolov8n-balanced-ultralytics-dataset` | `exp-2.pt` | 100 | 59.4% | 34.1% | 63.4% | 61.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp-2) |
+| `yolov8n-300epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8n-300epoch.pt` | 300 (1280px) | **64.0%** | **37.4%** | **66.4%** | **65.5%** | Platform Run |
+| `yolov8n-250epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8n-250-epoch.pt` | 250 (1280px) | 63.9% | 36.3% | 65.9% | 65.4% | Platform Run |
+| `yolov8n-train-with-200-epoch` | `yolov8n-train-with-200-epoch.pt` | 200 (1280px) | 63.0% | 35.5% | 64.7% | 65.1% | Platform Run |
+| `yolov8n-update-v1-balanced-ultralytics-dataset` | `yolov8n-update-v1.pt` | 100 | 60.5% | 34.6% | 63.4% | 62.2% | Platform Run |
+| `yolov8n-balanced-ultralytics-dataset` | `exp-2.pt` | 100 | 59.4% | 34.1% | 63.4% | 61.2% | Platform Run |
 
 #### YOLOv8 Small (YOLOv8s) Models
 
 | Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov8s-250epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-250-epoch.pt` | 250 (1280px) | **68.9%** | 45.0% | 73.9% | 68.8% | [Ultralytics Hub](https://platform.ultralytics.com/paranitharan002/pothole-detection/yolov8s-250-epoch-3) |
-| `yolov8s-350epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-350-epoch.pt` | 350 (1280px) | 68.8% | **45.9%** | **75.1%** | 68.3% | [Ultralytics Hub](https://platform.ultralytics.com/paranitharan002/pothole-detection/350-epoch) |
-| `yolov8s-200epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-200-epoch.pt` | 200 (1280px) | 68.2% | 43.0% | 71.1% | **69.0%** | [Ultralytics Hub](https://platform.ultralytics.com/paranitharan002/pothole-detection/yolov8s-200) |
-| `yolov8s-100epoch-balanced-ultralytics-dataset` | `yolov8s.pt` | 100 | 66.4% | 39.4% | 68.0% | 68.1% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/yolov8s) |
-| `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | 50 | 62.4% | 36.6% | 63.9% | 66.0% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/exp) |
-| `yolov8s-960imgsz-balanced-ultralytics-dataset` | `exp.pt` | 100 (960px) | 51.5% | 27.6% | 56.9% | 53.2% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-2/pothole-detection/exp) |
+| `yolov8s-250epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-250-epoch.pt` | 250 (1280px) | **68.9%** | 45.0% | 73.9% | 68.8% | Platform Run |
+| `yolov8s-350epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-350-epoch.pt` | 350 (1280px) | 68.8% | **45.9%** | **75.1%** | 68.3% | Platform Run |
+| `yolov8s-200epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-200-epoch.pt` | 200 (1280px) | 68.2% | 43.0% | 71.1% | **69.0%** | Platform Run |
+| `yolov8s-100epoch-balanced-ultralytics-dataset` | `yolov8s.pt` | 100 | 66.4% | 39.4% | 68.0% | 68.1% | Platform Run |
+| `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | 50 | 62.4% | 36.6% | 63.9% | 66.0% | Platform Run |
+| `yolov8s-960imgsz-balanced-ultralytics-dataset` | `exp.pt` | 100 (960px) | 51.5% | 27.6% | 56.9% | 53.2% | Platform Run |
 
 #### YOLOv8 Medium (YOLOv8m) Models
 
 | Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov8m-balanced-ultralytics-dataset` | `yolov8m.pt` | 75 | **66.9%** | **43.5%** | **70.7%** | **69.2%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-4/example-project/yolov8m) |
+| `yolov8m-balanced-ultralytics-dataset` | `yolov8m.pt` | 75 | **66.9%** | **43.5%** | **70.7%** | **69.2%** | Platform Run |
 
 #### YOLO11 Nano (YOLO11n) Models
 
 | Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolo11n-50epoch-balanced-ultralytics-dataset` | `yolo11n-50epoch.pt` | 50 | **57.3%** | **32.2%** | **60.6%** | **59.8%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/volov11n-50epoch) |
+| `yolo11n-50epoch-balanced-ultralytics-dataset` | `yolo11n-50epoch.pt` | 50 | **57.3%** | **32.2%** | **60.6%** | **59.8%** | Platform Run |
 
 #### YOLOv26 Nano (YOLOv26n) Models
 
 | Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov26n-150epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov26n-150epoch.pt` | 150 (1280px) | **64.3%** | **37.3%** | **66.5%** | **65.4%** | [Ultralytics Hub](https://platform.ultralytics.com/paranitharan002/pothole-detection/yolov26n-150epoch) |
-| `yolov26n-balanced-ultralytics-dataset` | `yolo26n-training.pt` | 100 | 58.9% | 34.3% | 64.1% | 59.8% | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam/pothole-detection/yolo26n-training) |
+| `yolov26n-150epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov26n-150epoch.pt` | 150 (1280px) | **64.3%** | **37.3%** | **66.5%** | **65.4%** | Platform Run |
+| `yolov26n-balanced-ultralytics-dataset` | `yolo26n-training.pt` | 100 | 58.9% | 34.3% | 64.1% | 59.8% | Platform Run |
 
 #### YOLOv26 Small (YOLOv26s) Models
 
 | Folder Name | Weights File | Epochs | mAP50 | mAP50-95 | Precision | Recall | Model/Hub Link |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `yolov26s-balanced-ultralytics-dataset` | `yolov26s.pt` | 100 | **65.1%** | **41.1%** | **70.0%** | 67.3% | [Ultralytics Hub](https://platform.ultralytics.com/ankayatchchelvi-palasuntharam/test-yolo-training/yolov26s) |
-| `yolov26s-100epoch-balanced-ultralytics-dataset` | `yolov26s-100epoch.pt` | 100 | 64.9% | 40.7% | 69.2% | **67.7%** | [Ultralytics Hub](https://platform.ultralytics.com/paranietharan-palasuntharam-4/example-project/yolo26s-100-epoch) |
+| `yolov26s-balanced-ultralytics-dataset` | `yolov26s.pt` | 100 | **65.1%** | **41.1%** | **70.0%** | 67.3% | Platform Run |
+| `yolov26s-100epoch-balanced-ultralytics-dataset` | `yolov26s-100epoch.pt` | 100 | 64.9% | 40.7% | 69.2% | **67.7%** | Platform Run |
 
 ---
 
