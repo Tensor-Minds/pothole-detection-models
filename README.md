@@ -33,6 +33,7 @@ This section lists models trained on the **Balanced Ultralytics Hub Dataset** (`
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | `yolov8s-250epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-250-epoch.pt` | 250 (1280px) | **68.9%** | 45.0% | 73.9% | 68.8% | Platform Run |
 | `yolov8s-350epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-350-epoch.pt` | 350 (1280px) | 68.8% | **45.9%** | **75.1%** | 68.3% | Platform Run |
+| `yolov8s-350epoch-coslrtrue-balanced-ultralytics-dataset` | `yolov8s-350-epoch-coslrtrue.pt` | 350 | 68.8% | 45.7% | 74.3% | 69.2% | Platform Run |
 | `yolov8s-200epoch-1280imgsz-balanced-ultralytics-dataset` | `yolov8s-200-epoch.pt` | 200 (1280px) | 68.2% | 43.0% | 71.1% | **69.0%** | Platform Run |
 | `yolov8s-100epoch-balanced-ultralytics-dataset` | `yolov8s.pt` | 100 | 66.4% | 39.4% | 68.0% | 68.1% | Platform Run |
 | `yolov8s-balanced-ultralytics-dataset` | `exp.pt` | 50 | 62.4% | 36.6% | 63.9% | 66.0% | Platform Run |
